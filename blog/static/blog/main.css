@@ -1,0 +1,145 @@
+/* home css */
+.home-body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/static/assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+* {
+  outline: none;
+}
+
+.title {
+  font-family: "Playball", cursive;
+  color: white;
+  font-size: 78px;
+  width: 500px;
+  text-align: center;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-button {
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: none;
+  color: #0ca9a5;
+  font-size: 20px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.main-button:hover,
+.sub-button:hover {
+  background-color: #89cbcd;
+  color: white;
+  cursor: pointer;
+}
+
+.custom-container {
+  margin-top: 5rem;
+}
+
+.custom-nav {
+  background-color: #0ca9a5 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #3599e1;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #0ca9a5;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}

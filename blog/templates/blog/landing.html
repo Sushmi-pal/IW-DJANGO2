@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Django Blog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playball&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="{% static 'blog/main.css' %}" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="home-body">
+    <style>
+      * {
+        outline: none;
+      }
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        background-color: #0ca9a5;
+        outline: none;
+      }
+    </style>
+
+    <section>
+      <div class="text-container">
+        <h1 class="title">Blog your thoughts away.</h1>
+        <button class="main-button" onclick="window.location.href='blog/'">
+          Get started
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
